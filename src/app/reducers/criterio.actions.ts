@@ -2,8 +2,8 @@ import { Action } from '@ngrx/store';
 import { CriterioBusqueda } from '../lanzamientos';
 
 export enum CriterioActionTypes {
-  CambiarCriterio = '[Launch] Cambiar criterio',
-  CambiadoCriterio = '[Launch] Cambiado criterio',
+  CambiarCriterio = '[Criterio] Cambiar criterio',
+  CambiadoCriterio = '[Criterio] Cambiado criterio',
 }
 
 export class CambiarCriterio implements Action {
